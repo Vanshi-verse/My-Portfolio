@@ -304,3 +304,28 @@ footer {
     text-decoration: underline;
     color: #ffffff;
 }
+
+/*mobile responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .skills,
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
